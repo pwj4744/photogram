@@ -1,0 +1,30 @@
+package com.cos.photogramstart.domain.user;
+
+import java.time.LocalDateTime;
+
+//JPA - 자바로 데이터를 영구적으로 DB에 저장할 수있는 API를 제공
+
+
+
+
+public class User {
+
+	private Long id;
+	
+	private String username;
+	private String password;
+	
+	private String name;
+	private String website;
+	private String bio;
+	private String email;
+	private String phone;
+	private String gender;
+	
+	private LocalDateTime createDate;
+	
+	public void createDate() {
+		this.createDate = LocalDateTime.now();
+	}
+	
+}

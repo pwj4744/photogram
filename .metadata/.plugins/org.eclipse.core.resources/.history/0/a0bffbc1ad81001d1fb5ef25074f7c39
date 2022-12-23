@@ -1,0 +1,22 @@
+package com.cos.controllerdemo.web;
+
+
+@RestController
+public class HttpBodyController {
+
+	@PostMapping("/body1")
+	public String xwwwformurlencoded() {
+	
+	}
+	
+	@PostMapping("/body2")
+	public String plaintext() {
+		
+	}
+	
+	@PostMapping("/body3")
+	public String applicationjson() {
+		
+	}
+	
+}

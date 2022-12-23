@@ -1,0 +1,10 @@
+package com.cos.controllerdemo.web;
+
+@RestController
+public class HttpController {
+
+	@GetMapping("/get")
+	public string get() {
+		return "get요청";
+	}
+}

@@ -1,0 +1,23 @@
+package com.cos.photogramstart.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cos.photogramstart.domain.user.User;
+import com.cos.photogramstart.domain.user.UserRepository;
+
+import lombok.RequiredArgsConstructor;
+
+
+@RequiredArgsConstructor
+@Service
+public class AuthService {
+
+	private final UserRepository userRepository;
+	
+	
+	public void 회원가입(User user) { // 여기서 받는 user과
+		
+		//회원가입 진행 
+		User userEntity = userRepository.save(user); // 여기서받는 userEntity는 다름 이 Entity는 디비에서 꺼내온것. 
+	}
+}

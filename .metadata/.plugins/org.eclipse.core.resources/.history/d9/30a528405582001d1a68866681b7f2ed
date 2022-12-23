@@ -1,0 +1,13 @@
+package com.cos.photogramstart.domain.user;
+
+
+
+//JPA
+
+
+
+
+public class User {
+
+	
+}

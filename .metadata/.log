@@ -1,0 +1,3332 @@
+!SESSION 2022-12-20 15:44:51.264 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:44:54.384
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-20 15:44:58.327
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.core 1 0 2022-12-20 15:48:52.735
+!MESSAGE Some entries could not be found on the Marketplace
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2022-12-20 15:48:52.735
+!MESSAGE Node not found: '3581018'
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-12-20 15:48:53.549
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse-update-site/main/artifacts.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-12-20 15:48:53.858
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse-update-site/main/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-12-20 15:49:29.900
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:34)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:915)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:193)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-12-20 15:49:29.901
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:44)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:915)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:193)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.eclipse.ui 2 2 2022-12-20 15:50:56.140
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-12-20 15:50:57.691 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/workspace/springbootwork/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-20 15:51:02.846
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-20 15:51:07.016
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-12-20 16:56:34.616
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-12-21 16:24:38.310 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:25:23.527
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-21 16:25:41.584
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:27:24.152
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY Activator 1 0 2022-12-21 16:28:42.809
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:28:43.866
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:28:44.285
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:28:44.410
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:30:34.063
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:30:34.255
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.ui 2 2 2022-12-21 16:35:30.444
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-12-21 16:36:14.929 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:36:18.231
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-21 16:36:21.791
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-21 16:36:22.528
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '.git', absolute path: 'C:/workspace/springbootwork/photogram/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:751)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:714)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:661)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:193)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:171)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2022-12-21 16:36:23.368
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:36:25.182
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:36:36.097
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.ui 2 2 2022-12-21 16:36:43.908
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-12-21 16:49:54.421 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-21 16:49:57.972
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-21 16:49:57.973
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY Activator 1 0 2022-12-21 16:50:05.104
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-21 16:50:05.252
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-12-21 16:50:15.064
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:02.156
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:02.157
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@22fb60f3[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:02.165
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:02.348
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2022-12-21 16:52:02.526
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-21 16:52:02.526
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@763ee217,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1db6813d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:09.079
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1775)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5169)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4792)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:09.132
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1775)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5169)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4792)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:09.568
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1775)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5169)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4792)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:09.620
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1775)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5169)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4792)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.250
+!MESSAGE Boot LS startup time from start to initialized: 8081ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.344
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YXpWiPBTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.347
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.349
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.350
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.350
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.350
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YXpWiPBT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.357
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.362
+!MESSAGE buffering callback sts4.classpath.YXpWiPBT photogram false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:10.362
+!MESSAGE executing callback sts4.classpath.YXpWiPBT 1 batched events
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.373
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.424
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.516
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.568
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.623
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.675
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.756
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 16:52:10.807
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-12-21 16:52:11.367
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-21 16:52:12.214
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:52:12.382
+!MESSAGE executing callback sts4.classpath.YXpWiPBT SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-21 16:52:13.641
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:57:32.167
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YXpWiPBT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:57:32.168
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YXpWiPBT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:57:32.168
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 16:57:32.168
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YXpWiPBT => OK
+
+!ENTRY Activator 1 0 2022-12-21 16:57:32.172
+!MESSAGE Has main method computation for project 'photogram'
+!SESSION 2022-12-22 09:14:09.640 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 09:14:15.426
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY Activator 1 0 2022-12-22 09:14:44.929
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-22 09:14:44.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:46.541
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:46.542
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6ec6adcc[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:46.551
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.jface 2 0 2022-12-22 09:19:46.870
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-22 09:19:46.870
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@695aa5d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@918ca32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:47.339
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.091
+!MESSAGE Boot LS startup time from start to initialized: 5531ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.193
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QgOqpaYtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.197
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.200
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.201
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.201
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.202
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QgOqpaYt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.224
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.230
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt photogram false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.230
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:19:52.643
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 09:19:53.913
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.ui 2 2 2022-12-22 09:43:53.217
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-12-22 09:48:34.144
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:48:49.245
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2022-12-22 09:48:49.247
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:48:49.248
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:48:51.490
+!MESSAGE classpath=64 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:48:51.496
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 64
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:48:51.497
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:48:51.774
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 09:48:55.836
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:48:55.888
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:51:20.304
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY Activator 1 0 2022-12-22 09:51:20.305
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:51:20.305
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:51:20.306
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:51:20.312
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 09:52:51.142
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:51.188
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:51.237
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:54.140
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:54.182
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:57.953
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:58.032
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:58.321
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:58.436
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:52:58.451
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:52:58.452
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:52:58.453
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:52:58.453
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY Activator 1 0 2022-12-22 09:52:58.522
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:52:59.100
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:00.455
+!MESSAGE executing callback sts4.classpath.QgOqpaYt FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-12-22 09:53:00.456
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2022-12-22 09:53:01.051
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:01.053
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:01.060
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:01.064
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:01.069
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:01.070
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY Activator 1 0 2022-12-22 09:53:01.567
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:01.590
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:02.535
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:02.536
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.072
+!MESSAGE executing callback sts4.classpath.QgOqpaYt FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-12-22 09:53:03.073
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.074
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.079
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.083
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.084
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.137
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.139
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.328
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.343
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.406
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.420
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.790
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.819
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.824
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.830
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.835
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.835
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:03.878
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 09:53:03.990
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:04.057
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:04.341
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:04.344
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:08.472
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:08.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2022-12-22 09:53:08.473
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:08.482
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:08.490
+!MESSAGE buffering callback sts4.classpath.QgOqpaYt controller-demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:08.491
+!MESSAGE executing callback sts4.classpath.QgOqpaYt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 09:53:08.531
+!MESSAGE executing callback sts4.classpath.QgOqpaYt SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 09:53:08.636
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:53:08.644
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:40.014
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:40.014
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:40.145
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:40.145
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:49.509
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:55:49.509
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:09.880
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:09.880
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:10.046
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:10.047
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:16.236
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:16.236
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:16.360
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 09:56:16.360
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:00:39.782
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:00:39.783
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:00:40.311
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:00:40.334
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:01:44.227
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:01:44.227
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:01:44.755
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:01:44.774
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:02:57.979
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:02:57.980
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:02:58.918
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:02:58.918
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:03:49.893
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:03:49.894
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:03:50.470
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:03:50.485
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:04:56.107
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:04:56.107
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:04:56.688
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:04:56.704
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:05:39.115
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:05:39.115
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:05:39.779
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:05:39.780
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:12:09.142
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:12:09.143
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:12:09.859
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:12:09.860
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.120
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.120
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.273
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.274
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.932
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:37.933
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:38.920
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:18:38.921
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.381
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.381
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.523
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.523
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.987
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:14.987
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:15.511
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:20:15.511
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:34:11.905
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:34:11.906
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:34:12.487
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:34:12.500
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:35:59.992
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:35:59.992
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:36:01.806
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QgOqpaYt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:36:01.806
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QgOqpaYt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:36:01.807
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:36:01.807
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QgOqpaYt => OK
+!SESSION 2022-12-22 10:36:22.246 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 4 567 2022-12-22 10:36:25.130
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-12-22 10:36:25.130
+!MESSAGE Could not read metadata for 'controller-demo'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/controller-demo)[567]: java.lang.Exception: The project description file (.project) for 'controller-demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-12-22 10:36:25.131
+!MESSAGE The project description file (.project) for 'controller-demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'controller-demo' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-22 10:36:25.532
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-22 10:36:29.547
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2022-12-22 10:36:31.561
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.ui 2 2 2022-12-22 10:36:32.827
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-12-22 10:36:34.162
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:36:39.652
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:10.043
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:10.108
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:10.181
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.121
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.188
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.506
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.574
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.721
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.791
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:11.863
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:12.308
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:16.529
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:16.628
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:22.998
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:22.999
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:23.137
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:23.138
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:29.573
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:29.573
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:29.606
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:29.635
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:30.312
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:30.313
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:30.625
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:30.625
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5da46699[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:30.627
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:30.647
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-12-22 10:37:30.866
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:37:30.888
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.349
+!MESSAGE Boot LS startup time from start to initialized: 1717ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.414
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vDTWKbEyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.417
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.418
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.419
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.420
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vDTWKbEy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.426
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.428
+!MESSAGE buffering callback sts4.classpath.vDTWKbEy controller-demo false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.433
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.438
+!MESSAGE buffering callback sts4.classpath.vDTWKbEy photogram false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.438
+!MESSAGE executing callback sts4.classpath.vDTWKbEy 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 10:37:32.734
+!MESSAGE executing callback sts4.classpath.vDTWKbEy SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-22 10:38:08.303
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:08.303
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:08.896
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:08.918
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:17.802
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:17.802
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:18.338
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:38:18.357
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:52:16.130
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:52:16.131
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:52:16.728
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:52:16.745
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-22 10:53:46.087
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-12-22 10:53:46.391
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:53:46.392
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:53:46.982
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:53:47.003
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:54:59.622
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:54:59.624
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 10:55:00.417
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 10:55:00.418
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:01:59.897
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:01:59.898
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:02:00.482
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:02:00.502
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:03:50.685
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:03:50.685
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:03:51.265
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:03:51.280
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:04:40.225
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:04:40.226
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:04:40.808
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:04:40.826
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:09:26.453
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:09:26.453
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:09:27.511
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:09:28.623
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:11:27.838
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:11:27.838
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:11:28.419
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:11:28.434
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:39.731
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:39.731
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:40.313
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:40.327
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.jface 2 0 2022-12-22 13:13:46.384
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-22 13:13:46.384
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14d8a510,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@313c8e06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+
+!ENTRY Activator 1 0 2022-12-22 13:13:57.210
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:57.211
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:57.995
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:13:57.996
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:00.742
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:00.742
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:01.762
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:01.763
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:54.168
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:54.168
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:54.750
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:54.767
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:58.967
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:58.967
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:59.546
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:19:59.561
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:21:05.967
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:21:05.968
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:21:06.547
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:21:06.561
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:22:08.453
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:22:08.453
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:22:09.322
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:22:09.322
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:17.165
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:17.166
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:17.297
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:17.297
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:26.982
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:26.983
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:27.559
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:43:27.577
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:47:49.768
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:47:49.768
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:47:50.352
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:47:50.368
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:48:50.485
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 13:48:50.485
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:48:51.065
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 13:48:51.084
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:11:58.418
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:11:58.418
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:11:58.949
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:11:59.007
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:01.161
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:01.161
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:01.748
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:01.774
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:41.873
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:41.874
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:42.455
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:21:42.471
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:23:52.275
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:23:52.275
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:23:52.856
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:23:52.872
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:41.467
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:41.467
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:42.047
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:42.084
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.552
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.553
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.578
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.611
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.664
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:48.669
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:50.761
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:50.762
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:50.790
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:25:50.826
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:26:11.795
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:26:11.795
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:26:12.375
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:26:12.408
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:27:01.679
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:27:01.680
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:27:02.256
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:27:02.273
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:20.251
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:20.252
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:20.834
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:20.869
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:22.560
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:22.561
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:23.142
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:23.159
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:41.318
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:41.318
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:41.896
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:29:41.912
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:30:26.351
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:30:26.351
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 14:30:26.933
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 14:30:26.948
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:11:11.675
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:11:11.675
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:11:12.255
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:11:12.273
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:12:07.844
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:12:07.845
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:12:08.426
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:12:08.442
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:24.552
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:24.552
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:25.845
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:25.846
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:42.869
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:42.869
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:43.462
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:51:43.478
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:06.216
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:06.216
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:06.798
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:06.814
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:31.423
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:31.424
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:32.005
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:53:32.019
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:55:49.784
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:55:49.785
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:55:50.363
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:55:50.377
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:58:33.739
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:58:33.739
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 15:58:34.273
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 15:58:34.331
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:00:18.179
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:00:18.180
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:00:18.763
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:00:18.776
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:03:39.315
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:03:39.316
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:03:40.054
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:03:40.054
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.eclipse.jface 2 0 2022-12-22 16:26:22.692
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-22 16:26:22.692
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3db5d206,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e7dd1c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-12-22 16:26:23.167
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:26:23.168
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:37.245
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:37.246
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:37.833
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:37.853
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:42.208
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-22 16:27:42.208
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 16:27:42.259
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vDTWKbEy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 16:27:42.259
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vDTWKbEy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 16:27:42.260
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-22 16:27:42.260
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vDTWKbEy => OK
+!SESSION 2022-12-23 08:48:15.509 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-23 08:48:22.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:46.616
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:46.617
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@79b8c253[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:46.627
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:46.800
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-12-23 08:48:48.045
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:48:48.046
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-23 08:48:48.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\park'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:54.973
+!MESSAGE Boot LS startup time from start to initialized: 8338ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.068
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bzBxJEpoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.073
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.075
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.076
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.076
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.077
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bzBxJEpo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.089
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.093
+!MESSAGE buffering callback sts4.classpath.bzBxJEpo photogram false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.105
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.107
+!MESSAGE buffering callback sts4.classpath.bzBxJEpo controller-demo false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.108
+!MESSAGE executing callback sts4.classpath.bzBxJEpo 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 08:48:55.472
+!MESSAGE executing callback sts4.classpath.bzBxJEpo SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-12-23 08:50:16.584
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:16.585
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:19.095
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:19.096
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:22.912
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:22.912
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.ui 2 2 2022-12-23 08:50:42.375
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-12-23 08:50:46.524
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:46.525
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:46.712
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:50:46.712
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:12.324
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:12.325
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:12.919
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:12.933
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:37.431
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:37.431
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:37.562
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:52:37.563
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:15.071
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:15.071
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:15.666
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:15.678
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:20.565
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:20.566
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:21.176
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:53:21.176
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:13.861
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:13.862
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:14.519
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:14.519
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:18.392
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:18.393
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:19.406
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:19.407
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:27.947
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:27.947
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:28.535
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:54:28.542
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:58:14.993
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:58:14.994
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:58:15.575
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:58:15.589
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:06.910
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:06.911
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:07.492
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:07.506
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:15.552
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:15.553
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:16.133
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 08:59:16.150
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:08.919
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:08.919
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:09.052
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:09.053
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:25.266
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:25.266
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:25.398
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:25.398
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:32.153
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:32.153
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:32.736
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:32.751
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:57.195
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:57.195
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:57.974
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:02:57.975
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:03:37.865
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:03:37.866
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:03:38.444
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:03:38.459
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:06:53.653
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:06:53.655
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:06:54.233
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:06:54.252
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:08:41.835
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:08:41.835
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:08:42.546
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:08:42.547
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:29.342
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:29.343
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:29.923
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:29.938
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:36.347
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:36.348
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:36.926
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:36.941
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:40.775
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:40.776
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:41.358
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:09:41.375
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:02.429
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:02.430
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:03.282
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:03.283
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:25.015
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:25.015
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:25.597
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:10:25.611
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:11:33.457
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:11:33.458
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:11:34.039
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:11:34.053
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:13:58.916
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:13:58.917
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:13:59.502
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:13:59.516
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:16:27.291
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:16:27.292
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:16:27.884
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:16:27.904
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:31.777
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:31.778
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:31.915
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:31.916
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:40.277
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:40.278
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:40.863
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:17:40.877
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:18:47.488
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:18:47.488
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:18:48.073
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:18:48.089
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:19:38.723
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:19:38.723
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:19:39.308
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:19:39.323
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:28:04.019
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:28:04.020
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:28:04.604
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:28:04.619
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:46:20.421
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:46:20.421
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:46:21.003
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:46:21.017
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:47:05.099
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:47:05.100
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:47:05.732
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:47:05.732
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:25.550
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:25.550
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:27.642
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:27.649
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-23 09:49:30.367
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-12-23 09:49:30.783
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:30.784
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:31.384
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:49:31.393
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:51:23.011
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:51:23.012
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:51:23.591
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:51:23.608
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:15.794
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:15.795
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:16.376
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:16.391
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:32.221
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:32.221
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:32.799
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:32.814
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-12-23 09:52:44.662
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-12-23 09:52:47.120
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:47.120
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:47.706
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:52:47.716
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:08.301
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:08.302
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:08.880
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:08.893
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:32.010
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:32.011
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:32.591
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:53:32.607
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:09.983
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:09.983
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:10.560
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:10.575
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:33.813
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:33.814
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:34.394
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:34.409
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:48.450
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:48.450
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:49.029
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:49.045
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:56.455
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:56.456
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:57.100
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 09:54:57.101
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:47.858
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:47.858
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:48.440
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:48.455
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:53.339
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:53.339
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:53.915
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:01:53.936
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:38.204
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:38.205
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:38.783
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:38.804
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:44.643
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:44.644
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:45.223
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:03:45.246
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:05:00.589
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:05:00.589
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:05:01.169
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:05:01.183
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:06:16.791
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:06:16.791
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 10:06:17.368
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 10:06:17.385
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY org.eclipse.jface 2 0 2022-12-23 14:40:08.477
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-23 14:40:08.477
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a704c72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c5eab49,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-12-23 14:40:09.034
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 14:40:09.035
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY Activator 1 0 2022-12-23 15:05:33.957
+!MESSAGE Has main method computation for project 'photogram'
+
+!ENTRY Activator 1 0 2022-12-23 15:05:33.958
+!MESSAGE Has main method computation for project 'controller-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 15:05:34.129
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bzBxJEpo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 15:05:34.130
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bzBxJEpo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 15:05:34.130
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-23 15:05:34.131
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bzBxJEpo => OK
